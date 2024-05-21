@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="success.html" method="GET" id="form" class="form">
+      <div>
+        <label for="firstname">First Name:</label>
+        <input required type="text" name="firstname" id="firstName" />
+        <br />
+        <span id="firstName-error"></span>
+      </div>
+      <div>
+        <label for="lastname">Last Name:</label>
+        <input required type="text" name="lastname" id="lastName" />
+        <br />
+        <span id="lastName-error"></span>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input required type="email" name="email" id="email" />
+        <br />
+        <span id="email-error"></span>
+      </div>
+      <div>
+        <label for="tel">Tel:</label>
+        <input type="tel" name="tel" id="tel" />
+        <br />
+        <span id="tel-error"></span>
+      </div>
+      <div>
+        <label for="URL">URL:</label>
+        <input type="url" name="URL" id="url" />
+        <br />
+        <span id="url-error"></span>
+      </div>
+      </div>
+      <div>
+        <button type="reset">Reset</button>
+        <button type="submit" class="submit">Submit</button>
+      </div>
+    </form>
+    <script src="validate.js"></script>
+  </body>
+</html>

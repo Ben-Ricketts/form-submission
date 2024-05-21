@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.error-message {
+  color: red;
+}
+
+.form {
+  border: 2px solid black;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10%;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: lightblue;
+}
+
+input {
+  margin: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+.submit {
+  color: green;
+}
+
+.container {
+  height: 50%;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10%;
+  text-align: center;
+}
